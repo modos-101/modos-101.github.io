@@ -1,0 +1,40 @@
+.header-image1 {
+    background-image: url("20200605_155802.jpg");
+    border-top: 5px solid red;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header-image2 {
+        background-image: url("792142_418047278271941_368161227_o.jpg");
+        border-top: 5px solid red;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+  }
+.header-text {
+    text-align: left;
+    position: absolute;
+    top: 55%;
+    left: 33%;
+    color: blue;
+    line-height: 0.1em;
+}
+h3 {
+    left: 50%;
+    border: 2px solid;
+    text-align: left;
+    position: absolute;
+    left: 45%;
+}
+h4 {
+    left: 35%;
+    top: 40px;
+    text-align: left;
+    position: relative;
+    left: 45%;
+}
