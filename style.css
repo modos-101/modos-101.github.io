@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "oswald";
+    src: url("css/fonts/static/Oswald-Medium.ttf");
+    font-weight: 500;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 .header-image1 {
     background-image: url("20200605_155802.jpg");
     border-top: 5px solid red;
@@ -17,12 +24,14 @@
         position: relative;
   }
 .header-text {
+    font-style: "oswald";
     text-align: left;
     position: absolute;
-    top: 55%;
-    left: 33%;
+    top: 42%;
+    left: 30%;
     color: blue;
     line-height: 0.1em;
+    font-family: 'Roboto', sans-serif;
 }
 h3 {
     left: 50%;
