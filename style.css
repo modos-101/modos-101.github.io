@@ -17,7 +17,7 @@
 .header-image2 {
         background-image: url("792142_418047278271941_368161227_o.jpg");
         border-top: 5px solid red;
-        height: 500px;
+        height: 250px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -46,4 +46,11 @@ h4 {
     text-align: left;
     position: relative;
     left: 45%;
+}
+.col-2 {
+    object-position: center;
+    
+}
+.col-8 {
+    object-position: center;
 }
