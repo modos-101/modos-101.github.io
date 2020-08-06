@@ -16,7 +16,7 @@
 }
 .header-image2 {
         background-image: url("792142_418047278271941_368161227_o.jpg");
-        border-top: 5px solid red;
+        border-top: 5px solid white;
         height: 250px;
         background-position: center;
         background-repeat: no-repeat;
@@ -49,7 +49,7 @@ h4 {
 }
 .col-2 {
     object-position: center;
-    
+    background-color: blue;
 }
 .col-8 {
     object-position: center;
