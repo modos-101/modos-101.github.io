@@ -1,56 +1,157 @@
-@font-face {
-    font-family: "oswald";
-    src: url("css/fonts/static/Oswald-Medium.ttf");
-    font-weight: 500;
-}
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* GENERAL STYLES */
 
-.header-image1 {
-    background-image: url("20200605_155802.jpg");
-    border: 5px solid blue;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+h2 {
+  margin: 0, auto;
 }
-.header-image2 {
-        background-image: url("792142_418047278271941_368161227_o.jpg");
-        border-top: 5px solid white;
-        height: 250px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
+
+img {
+  margin: 0, auto;
+}
+
+* {
+    box-sizing: border-box;
   }
-.header-text {
-    font-style: "oswald";
-    text-align: left;
-    position: absolute;
-    top: 42%;
-    left: 30%;
-    color: blue;
-    line-height: 0.1em;
-    font-family: 'Roboto', sans-serif;
-}
-h3 {
-    left: 50%;
-    border: 2px solid;
-    text-align: left;
-    position: absolute;
-    left: 45%;
-}
-h4 {
-    left: 35%;
-    top: 40px;
-    text-align: left;
-    position: relative;
-    left: 45%;
-}
-.col-2 {
-    object-position: center;
-    background-color: blue;
-}
-.col-8 {
-    object-position: center;
-}
+  
+  /* A SIMPLE TOP NAVIGATION */
+  
+  nav ul {
+    background-color: #eee;
+    text-align: center;
+  }
+  
+  nav li {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    height: 3rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #C74F78;
+    display: block;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  nav a.active {
+    background-color: #c74f78;
+    color: #eee;
+  }
+  
+  
+  @media (min-width: 600px) {
+  
+    nav li {
+      display: inline-block;
+      border-bottom: none;
+      width: 7.5rem;
+    }
+  
+  }
+  
+  nav {
+    font-size: 0;
+  }
+  
+  .cover {
+    background: url('https://i.ytimg.com/vi/1Jiju_8e-Tg/maxresdefault.jpg') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: hsla(0,0%,100%,.7);
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    display: table;
+  }
+  
+  .wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0.625rem;
+  }
+  
+  .byline h2 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    letter-spacing: .1rem;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+  }
+  
+  .byline h3 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+  
+  .headline {
+    font-size: 3rem;
+    margin: 2rem 0;
+  }
+  
+  @media screen and (min-width: 1224px) {
+  
+    .headline {
+      font-size: 6rem;
+    }
+  
+  }
+  
+  .tagline {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+  
+  /* ==== ARTICLE STYLES ==== */
+  
+  section {
+    padding: 0 .625rem;
+  }
+  
+  @media screen and (min-width: 1224px) {
+  
+    section {
+      width: 50%;
+      max-width: 600px;
+      margin: 2rem auto;
+    }
+  
+  }
+  
+  section h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    line-height: 1.25;
+    margin: 2rem 0;
+  }
+  
+  section p {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 1rem 0;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #bd806e;
+  }
+  
+  a:hover {
+    color: #eda087;
+    transition: color .15s ease-in-out;
+  }
+  
+  
