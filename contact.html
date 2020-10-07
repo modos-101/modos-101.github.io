@@ -2,64 +2,62 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="lib/bootstrap-4.5.1-dist/css/bootstrap.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"
+      type="text/css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Leopold Robert CV2020</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/index.html">Robert Leopold</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="experience.html">Experience <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="education.html">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="other.html">Other</a>
-        </li>
-      </ul>
-    </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="other.html">Other</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
   </nav>
-  <div class="container">
-    <div class="row">
-      <div class="col-2">
-        <img width="150px" src="Follow_up_communication.jpg" alt="communication ways">
-        <img width="150px" src="julienrio.com_send_me_an_email.jpg" alt="communication ways">
-        <img width="150px" src="Call-Me-Phone-Image.gif" alt="communication ways">
-      </div>
-      <div class="col-8">
-        <h2>BASIC INFORMATION AND CONTACT DETAILS</h2>
-        <div>
-          <ul>
-            <li>Date of birth: 11.07.1974</li>
-            <li>Place of birth: <a target="blank" href="https://en.wikipedia.org/wiki/Cluj-Napoca">CLUJ-NAPOCA</a></li>
-            <li>Email address: modosjudo@gmail.com</li>
-            <li>Phone number: +44 077 221 978 32</li>
-            <li>Facebook: <a target="blank" href="https://www.facebook.com/robert.leopold.5/">Robert Leopold</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-2">
-        <div class="col-2">
-          <img width="150px" src="Follow_up_communication.jpg" alt="communication ways">
-          <img width="150px" src="julienrio.com_send_me_an_email.jpg" alt="communication ways">
-          <img width="150px" src="Call-Me-Phone-Image.gif" alt="communication ways">
-        </div>
-      </div>
+
+  <div class="jumbotron container">
+    <h1 class="well">BASIC INFORMATION AND CONTACT DETAILS</h1>
+
+    <img width class="img-responsive img-rounded" src="Follow_up_communication.jpg" alt="communication ways">
+
+    <div class="table-responsive">
+      <table class="table table-striped table-bordered table-hover table-condensed">
+        <tr>
+          <td>Date of birth:</td>
+          <td>11.07.1974</td>
+        </tr>
+        <tr>
+          <td>Place of birth:</td>
+          <td><a target="blank" href="https://en.wikipedia.org/wiki/Cluj-Napoca">CLUJ-NAPOCA</a></td>
+        </tr>
+        <tr>
+          <td>Email address:</td>
+          <td class="warning">modosjudo@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Phone number:</td>
+          <td>+44 077 221 978 32</td>
+        </tr>
+        <tr>
+          <td>Facebook:</td>
+          <td class="info"><a target="blank" href="https://www.facebook.com/robert.leopold.5/">Robert
+              Leopold</a></td>
+        </tr>
+      </table>
     </div>
   </div>
+
+  <footer>
+    <p>© 2020 LEO</p>
+  </footer>
 </body>
 
 </html>
